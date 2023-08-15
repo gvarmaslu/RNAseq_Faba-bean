@@ -1,10 +1,8 @@
+## Workflow scripts for Transcriptomics analysis of Faba bean 
 
-## Transcriptomics analysis of faba bean seed quality 
-
-
-
->  
-* Copy this project to your local directory and access script directory
+>
+* Note: All these workflow scripts need to be adopted to the local Linux-based working environment.
+* Copy this project to your local directory and access the scripts directory
 
 ```
 git clone https://github.com/gvarmaslu/RNAseq_Faba-bean
@@ -14,7 +12,7 @@ cd RNAseq_Faba-bean/scripts/
 ```
 
 > 
-NOTE: Before running the workflow one should install all dependent software/packages and set necessary environment paths to the working directly. 
+NOTE: Before running the workflow one should install all dependent software/packages and set the necessary environment paths to the working directly. 
 
 
 * Script to run the entire workflow
@@ -84,7 +82,7 @@ bash 5.2_Pars-annotation-run-all.sh > 5.2_Pars-annotation-run-all.sh.log 2>&1
 ```
 > 6.0
 
-* Annotataion stats
+* Annotation stats
 
 ```
 bash 6.0_Annotation-stats.sh > 6.0_Annotation-stats.sh.log 2>&1
@@ -117,8 +115,8 @@ R CMD 7.1_KEGG_GSEA.R
 ### Citation:
 
 When using this workflow, please cite our publication (manuscript in progress):
-
-(Transcriptional regulation of faba bean, SLU, Alnarp)
+- Spatio-Temporal Transcriptome and Storage Compound Profiles of Developing Faba Bean (Vicia faba) Seed Tissues. 2023
+- Department of Plant Breeding, Swedish University of Agricultural Sciences (SLU), SE-234 22 Lomma, Sweden
 
 ###
 
